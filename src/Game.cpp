@@ -111,7 +111,7 @@ int Game::get_width()
 }
 int Game::get_height()
 {
-    return 1;
+    return _height;
 }
 bool Game::has_lost()
 {
