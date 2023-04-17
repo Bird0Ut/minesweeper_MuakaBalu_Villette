@@ -13,11 +13,11 @@ Cell::~Cell()
 }
 void Cell::addMine(bool mine)
 {
-
+	_mine = mine;
 }
 int Cell::get_neighbours()
 {
-    return 0;
+    return _neighbours;
 }
 void Cell::get_neighbours(std::vector<std::vector<Cell>> &grid, size_t x, size_t y)
 {
